@@ -4,14 +4,12 @@ This is an fMRI-pattern-analysis following the tutorial from [NI-edu]((https://l
 Nifti images can be roughly divided into three “parts”:
 
 1. The header with metadata;
-
 2. The image data;
-
 3. The affine matrix
 
 All three parts are of course represented in nibabel’s Nifti1Image class. Let’s go through them one by one.
 
-An example, we can visualize a single slice (e.g., [39, :, :, 0]) of the first volume ( ) as follows:
+An example, we can visualize a single slice (e.g., [39, :, :, 0]) of the first volume as follows:
 ![image](https://github.com/user-attachments/assets/be332f12-a963-4a46-8ae5-7eb785b7ccbc)
 
 we can also look at fMRI data from a different perspective, that is, from the time dimension! For example, we could extract a single voxel’s time series (i.e., how the signal intensity varies across time) and plot the signal intensity values of that voxel across time. First, let’s extract the time series of one particular voxel (e.g., the middle one across all spatial dimensions):
@@ -28,8 +26,6 @@ an affine matrix, which relates the position of the image coordinates to real wo
 You can clearly see that the first voxel axis represents the sagittal dimension (left ←→ right), the second voxel axis represents the coronal dimension (anterior ←→ posterior), and the third voxel axis represents the axial dimension (inferior ←→ superior).
 
 ![image](https://github.com/user-attachments/assets/a27fec85-7cc3-4229-9377-5733568deefc)
-
-The corresponding to the actual coordinate for in fmri
 
 # Generalized linear model (GLM) in fmri analysis
 Model the activation of voxels (with some minor additions) based on some design-matrix.
@@ -65,7 +61,7 @@ The figure of the HRF shows the expected idealized (noiseless) response to a sin
 ![image](https://github.com/user-attachments/assets/75ba65e7-b0e9-41d2-8fe5-30c2698275f4)
 
 
-## After adding Convolution ( with a lag of 6s) 
+## After adding Convolution (with a lag of 6s) 
 
 ![image](https://github.com/user-attachments/assets/31960c4c-27e9-4449-a2ba-b00c62925f28)
 
