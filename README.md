@@ -3,7 +3,7 @@
 ## Summary of Analysis
 
 This repository contains two main Jupyter notebooks: `fmri-analysis.ipynb` and `functional_connectivity+prediction.ipynb`.
-`fmri-analysis.ipynb` followes the tutorial from [NI-edu]((https://lukas-snoek.com/NI-edu/index.html)), developed by the University of Amsterdam using data from [kaggel](https://www.kaggle.com/datasets/mathurinache/3t-fmri-dataset/data). `functional_connectivity+prediction.ipynb` followes the tutorial from [NI-edu](https://nilearn.github.io/dev/auto_examples/03_connectivity/plot_group_level_connectivity.html) and resting-state fMRI data from [Natural Scenes Dataset](https://naturalscenesdataset.org/)
+`fmri-analysis.ipynb` followes the tutorial from [Ni-edu](https://lukas-snoek.com/NI-edu/index.html), developed by the University of Amsterdam using data from [kaggel](https://www.kaggle.com/datasets/mathurinache/3t-fmri-dataset/data). `functional_connectivity+prediction.ipynb` followes the tutorial from [NI-edu](https://nilearn.github.io/dev/auto_examples/03_connectivity/plot_group_level_connectivity.html) and resting-state fMRI data from [Natural Scenes Dataset](https://naturalscenesdataset.org/)
 
 Below is a brief summary of their contents:
 
