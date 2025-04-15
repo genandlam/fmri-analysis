@@ -27,9 +27,11 @@ This notebook focuses on functional connectivity and prediction tasks in fMRI da
 - **Evaluation**: Provides techniques for evaluating model performance using metrics such as accuracy, precision, and recall.
 
 These notebooks serve as a practical guide for fMRI data analysis, combining theoretical concepts with hands-on implementation.
-Functional Connectivity Graphs
+
+## Functional Connectivity Graphs
 ![image](https://github.com/user-attachments/assets/fafae9c0-0b22-45da-acb7-5335e1ac7aa9)
 
+## F1 Scores of various algorthims ( Passive Aggressive Classifier (PA), Decision Tree, KNeighbors Classifier(KNN), RandomForestClassifier(RF), LogisticRegression (MLP), SVC)
 ![image](https://github.com/user-attachments/assets/bccf8ae4-fb56-4601-abff-352be9392c6e)
 
 
