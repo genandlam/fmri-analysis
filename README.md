@@ -17,6 +17,7 @@ This notebook provides an introduction to fMRI data analysis, focusing on the fo
 - **Resampling**: Covers resampling techniques using `scipy.interpolate` to adjust data scales.
 - **BOLD Response**: Discusses the delayed nature of the BOLD response and its implications for modeling.
 - **Convolution**: Explains how the Hemodynamic Response Function (HRF) is incorporated into models using convolution.
+![image](https://github.com/user-attachments/assets/bf3e0dc7-bfc8-4237-9c24-8866d234832b)
 
 ### `functional_connectivity+prediction.ipynb`
 This notebook focuses on functional connectivity and prediction tasks in fMRI data analysis:
@@ -26,3 +27,10 @@ This notebook focuses on functional connectivity and prediction tasks in fMRI da
 - **Evaluation**: Provides techniques for evaluating model performance using metrics such as accuracy, precision, and recall.
 
 These notebooks serve as a practical guide for fMRI data analysis, combining theoretical concepts with hands-on implementation.
+Functional Connectivity Graphs
+![image](https://github.com/user-attachments/assets/fafae9c0-0b22-45da-acb7-5335e1ac7aa9)
+
+![image](https://github.com/user-attachments/assets/bccf8ae4-fb56-4601-abff-352be9392c6e)
+
+
+
