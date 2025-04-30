@@ -2,8 +2,8 @@
 
 ## Summary of Analysis
 
-This repository contain Jupyter notebook: `fmri-analysis.ipynb` .
-`fmri-analysis.ipynb` followes the tutorial from [Ni-edu](https://lukas-snoek.com/NI-edu/index.html), developed by the University of Amsterdam using data from [kaggel](https://www.kaggle.com/datasets/mathurinache/3t-fmri-dataset/data).
+This repository contains a Jupyter notebook: `fmri-analysis.ipynb` .
+`fmri-analysis.ipynb` follows the tutorial from [Ni-edu](https://lukas-snoek.com/NI-edu/index.html), developed by the University of Amsterdam using data from [kaggel](https://www.kaggle.com/datasets/mathurinache/3t-fmri-dataset/data).
 
 Below is a brief summary of it's content: 
 
